@@ -10,3 +10,8 @@ b. URL `amqp://guest:guest@localhost:5672` juga digunakan dalam program subscrib
 Hal ini berarti bahwa publisher dan subscriber terhubung ke broker pesan yang sama, yaitu yang berada di alamat `amqp://guest:guest@localhost:5672`.
 Publisher berfungsi untuk mengirimkan pesan ke broker, sedangkan subscriber berperan untuk menerima pesan dari broker tersebut. Dengan menggunakan URL yang sama, keduanya bisa berinteraksi dalam satu sistem pengiriman pesan yang terintegrasi.
 
+
+Running RabbitMQ
+
+![image](https://github.com/user-attachments/assets/254a039e-755b-42af-bef4-13245908a307)
+

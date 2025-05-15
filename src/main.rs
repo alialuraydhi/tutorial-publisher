@@ -25,26 +25,26 @@ fn main() {
 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
         user_id: "1".to_owned(),
-        user_name: "2306275052-Amir".to_owned(),
+        user_name: "2306275992-Amir".to_owned(),
     });
 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
         user_id: "2".to_owned(),
-        user_name: "2306275052-Budi".to_owned(),
+        user_name: "2306275992-Budi".to_owned(),
     });
 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
         user_id: "3".to_owned(),
-        user_name: "2306275052-Cica".to_owned(),
+        user_name: "2306275992-Cica".to_owned(),
     });
 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
         user_id: "4".to_owned(),
-        user_name: "2306275052-Dira".to_owned(),
+        user_name: "2306275992-Dira".to_owned(),
     });
 
     _ = p.publish_event("user_created".to_owned(), UserCreatedEventMessage {
         user_id: "5".to_owned(),
-        user_name: "2306275052-Emir".to_owned(),
+        user_name: "2306275992-Emir".to_owned(),
     });
 }
